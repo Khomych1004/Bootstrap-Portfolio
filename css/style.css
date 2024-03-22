@@ -3,15 +3,21 @@
     padding: 0;
 }
 
-a.nav-link.active {
-    text-decoration: underline;
-}
-
-#aboutMe {
+#aboutMe img {
     margin-top: 100px;
 }
 
-div.card a {
+#mySkills {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#myWorks {
+    background-color: #e9ecef;
+}
+
+div.card a,
+#contactMe a {
     box-shadow: inset 0 0 0 0 #007bff;
     color: #007bff;
     margin: 0 -.25rem;
@@ -19,8 +25,9 @@ div.card a {
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
-div.card a:hover {
-    box-shadow: inset 100px 0 0 0 #007bff;
+div.card a:hover,
+#contactMe a:hover {
+    box-shadow: inset 210px 0 0 0 #007bff;
     color: white;
 }
 
@@ -28,13 +35,29 @@ div.card a:hover {
     margin-top: 20px;
 }
 
+#contactMe {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
 
+#contactMe .row {
+    margin-top: 20px;
+    margin-bottom: 20px;
 
+}
+
+.col {
+
+    margin-bottom: 20px;
+}
 
 footer {
     display: flex;
     height: 100px;
     text-align: center;
-    background-color: #f8f9fa;
+    background-color: #e9ecef;
     align-items: center;
 }
