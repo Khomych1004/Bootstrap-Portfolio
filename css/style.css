@@ -27,3 +27,14 @@ div.card a:hover {
 .card {
     margin-top: 20px;
 }
+
+
+
+
+footer {
+    display: flex;
+    height: 100px;
+    text-align: center;
+    background-color: #f8f9fa;
+    align-items: center;
+}
