@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![](https://komarev.com/ghpvc/?username=Khomych1004)
 
-![application screenshot](images/Oleksandr_Khomych_page .png)
+![application screenshot](images/Oleksandr_Khomych_page.png)
 
 ## Description
 This is my portfolio. With this site I wanted to show my abilities in website development using Bootstrap. my projects and contacts are also listed here.
